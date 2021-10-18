@@ -13,7 +13,7 @@ public class Mathey {
 
 
     /* Write another method called max that takes **two doubles**
-     * Ex. max(1, 4, 2) => 4
+     * Ex. max(1.2, 4.0) => 4.0
      */
     // YOUR CODE HERE, METHOD HEADER ALSO REQUIRED
 
@@ -29,7 +29,7 @@ public class Mathey {
 
 
     /* Write another method called max that takes **four doubles**
-     * Ex. max(1.0, 4.25, 2.1) => 4.25
+     * Ex. max(1.0, 4.25, 1.3, 2.1) => 4.25
      */
     // YOUR CODE HERE, METHOD HEADER ALSO REQUIRED
 
@@ -39,6 +39,7 @@ public class Mathey {
     /* Write a method that takes **two integers** and generates a random
      * integer between the first integer and the second integer, inclusive
      * you may assume that the first integer is smaller than the second
+     * You may use Math.random() here, but you can't use any other Math methods!
      * Ex. randomInteger(1, 4) => 3
      *     randomInteger(1, 4) => 2
      *     randomInteger(1, 4) => 4
